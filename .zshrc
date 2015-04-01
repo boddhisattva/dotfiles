@@ -91,6 +91,7 @@ alias tlf='tail -f'
 # bundle
 alias bi="bundle install"
 alias be="bundle exec"
+alias b="bundle"
 
 # rails
 alias rk="rake"
