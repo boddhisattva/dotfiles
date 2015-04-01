@@ -7,6 +7,10 @@ export ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
 
+#allows command like arguments to rake tasks
+#more details here - https://robots.thoughtbot.com/how-to-use-arguments-in-a-rake-task
+unsetopt nomatch
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -78,7 +82,19 @@ export PATH="/Users/mohnishgjadwani/.rvm/gems/ruby-1.9.3-p484@sb_prod/bin:/Users
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+#unix
+alias l='ls'
+alias ll='ls -al'
+alias tlf='tail -f'
+
+# bundle
 alias bi="bundle install"
 alias be="bundle exec"
-alias staging="ssh rails@reminderhawk.com"
+
+# rails
+alias rk="rake"
+alias s ="rspec"
+
+alias staging=""
 alias co="checkout"
