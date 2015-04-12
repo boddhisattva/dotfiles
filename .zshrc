@@ -94,8 +94,16 @@ alias be="bundle exec"
 alias b="bundle"
 
 # rails
-alias rk="rake"
-alias s ="rspec"
+alias rk= "rake"
+alias s = "rspec"
+alias rdc = "rake db:create"
+alias rdm = "rake db:migrate"
+alias rdmt = "rake db:migrate RAILS_ENV=test"
+alias rdtp = "rake db:test:prepare"
+alias prepdb = "rdm && rdtp"
+alias rc = "rails c"
+alias rs = "rails s"
+alias rsp = "rails s -p"
 
 alias staging=""
 alias co="checkout"
