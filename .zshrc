@@ -94,18 +94,26 @@ alias be="bundle exec"
 alias b="bundle"
 
 # rails
-alias rk= "rake"
-alias rs= "rspec"
-alias sps= "spring"
-alias sp= "spring stop"
-alias rdc= "rake db:create"
-alias rdm= "rake db:migrate"
-alias rdmt= "rake db:migrate RAILS_ENV=test"
-alias rdtp= "rake db:test:prepare"
+alias rk="rake"
+alias rs="rspec"
+alias sp="spring"
+alias sps="spring stop"
+alias rdc="rake db:create"
+alias rdm="rake db:migrate"
+alias rdmt="rake db:migrate RAILS_ENV=test"
+alias rdtp="rake db:test:prepare"
 alias prepdb= "rdm && rdtp"
-alias rc= "rails c"
-alias rs= "rails s"
-alias rsp= "rails s -p"
+alias rc="rails c"
+alias rct="rails c test"
+alias rs="rails s"
+alias rsp="rails s -p"
 
 alias staging=""
+
+#git
 alias co="checkout"
+alias gs="git stash"
+alias gsp="git stash pop"
+# This is used for limiting commit messages width. Read more on - http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+textwidth=72
+
