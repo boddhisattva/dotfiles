@@ -114,6 +114,7 @@ alias staging=""
 alias co="checkout"
 alias gs="git stash"
 alias gsp="git stash pop"
+alias gf="git fetch"
 # This is used for limiting commit messages width. Read more on - http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 textwidth=72
 
