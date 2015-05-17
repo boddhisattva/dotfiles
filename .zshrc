@@ -49,7 +49,7 @@ unsetopt nomatch
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git rails postgres z sublime)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,15 +99,11 @@ alias rs="rspec"
 alias sp="spring"
 alias sps="spring stop"
 alias rdc="rake db:create"
-alias rdm="rake db:migrate"
 alias rdmt="rake db:migrate RAILS_ENV=test"
-alias rdtp="rake db:test:prepare"
-alias prepdb= "rdm && rdtp"
-alias rc="rails c"
 alias rct="rails c test"
-alias rs="rails s"
 alias rsp="rails s -p"
 
+#deployment
 alias staging=""
 
 #git
