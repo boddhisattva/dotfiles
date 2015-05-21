@@ -95,13 +95,15 @@ alias b="bundle"
 
 # rails
 alias rk="rake"
-alias rs="rspec"
+alias r="rspec"
 alias sp="spring"
 alias sps="spring stop"
 alias rdc="rake db:create"
 alias rdmt="rake db:migrate RAILS_ENV=test"
 alias rct="rails c test"
 alias rsp="rails s -p"
+alias rapp="rake assets:precompile RAILS_ENV=production"
+alias rsp="rails s -e production"
 
 #deployment
 alias staging=""
