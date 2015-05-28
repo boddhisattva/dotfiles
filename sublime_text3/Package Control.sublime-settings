@@ -1,0 +1,29 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Alternative Autocompletion",
+		"Better CoffeeScript",
+		"Better RSpec",
+		"BracketHighlighter",
+		"Clipboard Manager",
+		"CoffeeScriptHaml",
+		"DashDoc",
+		"Gist",
+		"GitGutter",
+		"Github Color Theme",
+		"Markdown Preview",
+		"Package Control",
+		"RuboCop",
+		"Ruby on Rails snippets",
+		"RubyTest",
+		"SCSS",
+		"SublimeLinter",
+		"SublimeLinter-coffee",
+		"SublimeLinter-haml",
+		"SublimeLinter-jshint"
+	]
+}

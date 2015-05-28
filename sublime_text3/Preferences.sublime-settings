@@ -1,0 +1,13 @@
+{
+	"color_scheme": "Packages/User/SublimeLinter/GitHub (SL).tmTheme",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"index_files": true,
+	"smart_indent": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}
