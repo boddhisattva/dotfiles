@@ -49,7 +49,7 @@ unsetopt nomatch
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git rails postgres z sublime)
+plugins=(git rails postgres z sublime rvm)
 
 source $ZSH/oh-my-zsh.sh
 
