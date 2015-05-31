@@ -109,7 +109,9 @@ alias rsp="rails s -e production"
 alias staging=""
 
 #git
-alias co="checkout"
+alias grb="git rebase"
+alias gcma="git commit -a -m"
+alias gc="git clone"
 alias gs="git stash"
 alias gsp="git stash pop"
 alias gf="git fetch"
