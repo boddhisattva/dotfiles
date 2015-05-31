@@ -93,6 +93,11 @@ alias bi="bundle install"
 alias be="bundle exec"
 alias b="bundle"
 
+#gems
+
+alias gi="gem install"
+alias gu="gem uninstall"
+
 # rails
 alias rk="rake"
 alias r="rspec"
@@ -110,11 +115,12 @@ alias staging=""
 
 #git
 alias grb="git rebase"
-alias gcma="git commit -a -m"
+alias gcam="git commit -a -m"
 alias gc="git clone"
 alias gs="git stash"
 alias gsp="git stash pop"
 alias gf="git fetch"
+alias gpo="git push origin"
 # This is used for limiting commit messages width. Read more on - http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 textwidth=72
 
