@@ -94,9 +94,15 @@ alias be="bundle exec"
 alias b="bundle"
 
 #gems
-
 alias gi="gem install"
 alias gu="gem uninstall"
+
+#rvm
+alias rgu='rvm gemset use'
+alias rl='rvm list'
+alias rcg='rvm current gemset'
+alias rgc='rvm gemset create'
+alias ru='rvm use'
 
 # rails
 alias rk="rake"
