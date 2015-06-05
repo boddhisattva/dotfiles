@@ -96,6 +96,7 @@ alias b="bundle"
 #gems
 alias gi="gem install"
 alias gu="gem uninstall"
+alias gl="gem list"
 
 #rvm
 alias rgu='rvm gemset use'
@@ -115,11 +116,13 @@ alias rct="rails c test"
 alias rsp="rails s -p"
 alias rapp="rake assets:precompile RAILS_ENV=production"
 alias rsp="rails s -e production"
+alias rrg="rake routes | grep "
 
 #deployment
 alias staging=""
 
 #git
+alias grm="git rm"
 alias grb="git rebase"
 alias gcam="git commit -a -m"
 alias gc="git clone"
