@@ -101,9 +101,11 @@ alias gl="gem list"
 #rvm
 alias rgu='rvm gemset use'
 alias rl='rvm list'
+alias rgl='rvm gemset list'
 alias rcg='rvm current gemset'
 alias rgc='rvm gemset create'
 alias ru='rvm use'
+alias rcr='rvm --create --ruby-version '
 
 # rails
 alias rk="rake"
