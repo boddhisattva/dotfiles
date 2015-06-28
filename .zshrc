@@ -138,3 +138,5 @@ textwidth=72
 #sublime package specific, done via - http://gmarik.info/blog/2010/10/08/ctags-on-OSX
 alias ctags="`brew --prefix`/bin/ctags"
 
+#tmux
+alias tmls="tmux list-sessions"
