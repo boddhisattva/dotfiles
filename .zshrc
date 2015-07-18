@@ -135,6 +135,9 @@ alias gr="git reset"
 # This is used for limiting commit messages width. Read more on - http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 textwidth=72
 
+#zsh related
+alias d=devlog
+
 #sublime package specific, done via - http://gmarik.info/blog/2010/10/08/ctags-on-OSX
 alias ctags="`brew --prefix`/bin/ctags"
 
