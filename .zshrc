@@ -117,7 +117,11 @@ alias rct="rails c test"
 alias rsport="rails s -p"
 alias rapp="rake assets:precompile RAILS_ENV=production"
 alias rsp="rails s -e production"
-alias rrg="rake routes | grep "
+alias rrg="rake routes | grep"
+
+# rubocop
+alias ra="rubocop -a"
+
 
 #deployment
 alias staging=""
