@@ -114,9 +114,9 @@ alias sp="spring"
 alias sps="spring stop"
 alias rdmt="rake db:migrate RAILS_ENV=test"
 alias rct="rails c test"
-alias rsport="rails s -p"
+alias rsp="rails s -p"
 alias rapp="rake assets:precompile RAILS_ENV=production"
-alias rsp="rails s -e production"
+alias rsprod="rails s -e production"
 alias rrg="rake routes | grep"
 
 # rubocop
