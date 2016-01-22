@@ -105,20 +105,25 @@ alias rgl='rvm gemset list'
 alias rcg='rvm current gemset'
 alias rgc='rvm gemset create'
 alias ru='rvm use'
-alias rcr='rvm --create --ruby-version '
+alias rcr='rvm --create --ruby-version'
+alias rr='rvm remove'
+alias ri='rvm info'
 
 # rails
 alias rk="rake"
 alias r="rspec"
 alias sp="spring"
 alias sps="spring stop"
-alias rdc="rake db:create"
 alias rdmt="rake db:migrate RAILS_ENV=test"
 alias rct="rails c test"
 alias rsp="rails s -p"
 alias rapp="rake assets:precompile RAILS_ENV=production"
-alias rsp="rails s -e production"
-alias rrg="rake routes | grep "
+alias rsprod="rails s -e production"
+alias rrg="rake routes | grep"
+
+# rubocop
+alias ra="rubocop -a"
+
 
 #deployment
 alias staging=""
@@ -135,6 +140,9 @@ alias gpo="git push origin"
 alias gr="git reset"
 # This is used for limiting commit messages width. Read more on - http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 textwidth=72
+
+#zsh related
+alias d=devlog
 
 #sublime package specific, done via - http://gmarik.info/blog/2010/10/08/ctags-on-OSX
 alias ctags="`brew --prefix`/bin/ctags"
