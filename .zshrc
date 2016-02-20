@@ -124,6 +124,9 @@ alias rrg="rake routes | grep"
 # rubocop
 alias ra="rubocop -a"
 
+# postgres
+alias sp="startpost"
+alias stp="stoppost"
 
 #deployment
 alias staging=""
