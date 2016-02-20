@@ -128,6 +128,9 @@ alias ra="rubocop -a"
 alias sp="startpost"
 alias stp="stoppost"
 
+#redis
+alias reb="redis-server &"
+
 #deployment
 alias staging=""
 
