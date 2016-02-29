@@ -112,8 +112,8 @@ alias ri='rvm info'
 # rails
 alias rk="rake"
 alias r="rspec"
-alias sp="spring"
-alias sps="spring stop"
+alias s="spring"
+alias st="spring stop"
 alias rdmt="rake db:migrate RAILS_ENV=test"
 alias rct="rails c test"
 alias rsp="rails s -p"
