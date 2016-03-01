@@ -93,6 +93,10 @@ alias bi="bundle install"
 alias be="bundle exec"
 alias b="bundle"
 
+# exercism
+alias ef="exercism fetch"
+alias es="exercism submit"
+
 #gems
 alias gi="gem install"
 alias gu="gem uninstall"
