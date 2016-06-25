@@ -1,10 +1,16 @@
 # dotfiles
 
-* Notes specific to [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh) related dotfile
+## About
 
-  * Some of the aliases used in the .zshrc file, specific to plugins like git etc., contain the usage of custom alias names instead of using default names specified by the plugin as they're easier to remember and frequently use as and when required.
+These are my personal dotfiles that I use from time to time.
 
-  * To copy the say the `.zshrc` file from the repo location to where it should be actually placed to be effective, we can use the command `cp .zshrc ~/`
+## Usage
 
-  * To copy it from the location where it used to the location where it is part of a git repo `cp ~/.zshrc .`(this assumes your currently within the dotfiles repo)
+* General usage
 
+  * In order to make your dotfile aliases work in your localbox you need to copy that dot file to your home directory. A sample
+  command to do the same is - `cp .zshrc ~/`
+
+* Some notes that specifically apply with respect to the usage of `.zshrc`
+
+  * Some of the aliases used in the `.zshrc` file override the aliases specified as part of [oh-my-zsh plugins](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins). I've found these custom aliases more easy to use.
