@@ -113,6 +113,9 @@ alias rcr='rvm --create --ruby-version'
 alias rr='rvm remove'
 alias ri='rvm info'
 
+# ruby
+alias i="irb"
+
 # rails
 alias rk="rake"
 alias r="rspec"
