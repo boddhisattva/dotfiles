@@ -102,6 +102,9 @@ alias gi="gem install"
 alias gu="gem uninstall"
 alias gl="gem list"
 
+#ruby
+alias rv="ruby -v"
+
 #rvm
 alias rgu='rvm gemset use'
 alias rl='rvm list'
