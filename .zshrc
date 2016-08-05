@@ -147,6 +147,9 @@ alias stp="stoppost"
 #redis
 alias reb="redis-server &"
 
+# elasticsearch
+alias e="elasticsearch"
+
 #deployment
 alias staging=""
 
