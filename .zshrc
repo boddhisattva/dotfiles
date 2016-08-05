@@ -150,6 +150,9 @@ alias reb="redis-server &"
 # elasticsearch
 alias e="elasticsearch"
 
+#rabbitmq
+alias rmqd="rabbitmq-server --detached"
+
 #deployment
 alias staging=""
 
