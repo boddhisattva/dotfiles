@@ -134,6 +134,7 @@ alias rapp="rake assets:precompile RAILS_ENV=production"
 alias rsprod="rails s -e production"
 alias rrg="rake routes | grep"
 alias rj="rake jasmine"
+alias rcs="rails c --sandbox"
 
 # rubocop
 alias ra="rubocop -a"
