@@ -169,6 +169,7 @@ alias gf="git fetch"
 alias gpo="git push origin"
 alias gpom="git push origin master"
 alias gpoh="git push origin HEAD" # git push current branch via - http://stackoverflow.com/questions/14031970/git-push-current-branch-shortcut
+alias gpohf="git push origin HEAD -f"
 alias gr="git reset"
 alias grih="git rebase -i HEAD"
 # This is used for limiting commit messages width. Read more on - http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
