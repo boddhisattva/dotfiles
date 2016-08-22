@@ -135,6 +135,7 @@ alias rsprod="rails s -e production"
 alias rrg="rake routes | grep"
 alias rj="rake jasmine"
 alias rcs="rails c --sandbox"
+alias bullog="tail -f log/bullet.log"
 
 # rubocop
 alias ra="rubocop -a"
