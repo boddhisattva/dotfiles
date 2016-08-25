@@ -121,10 +121,9 @@ alias i="irb"
 
 # rails
 alias rk="rake"
-alias r="rspec"
+alias r="ruby"
 alias s="spring"
 alias st="spring stop"
-alias sr="spring rspec"
 alias srk="spring rake"
 alias st="spring stop"
 alias rdmt="rake db:migrate RAILS_ENV=test"
@@ -136,6 +135,10 @@ alias rrg="rake routes | grep"
 alias rj="rake jasmine"
 alias rcs="rails c --sandbox"
 alias bullog="tail -f log/bullet.log"
+
+# rspec
+alias t="rspec"
+alias sr="spring rspec"
 
 # rubocop
 alias ra="rubocop -a"
