@@ -187,5 +187,8 @@ alias d=devlog
 #sublime package specific, done via - http://gmarik.info/blog/2010/10/08/ctags-on-OSX
 alias ctags="`brew --prefix`/bin/ctags"
 
+#homebrew
+alias bi="brew install"
+
 #tmux
 alias tmls="tmux list-sessions"
