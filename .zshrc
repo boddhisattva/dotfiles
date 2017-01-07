@@ -189,6 +189,7 @@ alias ctags="`brew --prefix`/bin/ctags"
 
 #homebrew
 alias bi="brew install"
+alias bu="brew uninstall"
 
 #tmux
 alias tmls="tmux list-sessions"
