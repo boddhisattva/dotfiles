@@ -184,6 +184,7 @@ alias grbom="git rebase origin/master"
 #zsh related
 alias d=devlog
 
+#sublime text related
 #sublime package specific, done via - http://gmarik.info/blog/2010/10/08/ctags-on-OSX
 alias ctags="`brew --prefix`/bin/ctags"
 
@@ -193,3 +194,6 @@ alias bu="brew uninstall"
 
 #tmux
 alias tmls="tmux list-sessions"
+
+#zsh related
+alias cpz="cp .zshrc ~/" # this will copy your updated .zshrc to your root directory. This assumes your pwd has a .zshrc file
