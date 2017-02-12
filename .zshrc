@@ -156,6 +156,8 @@ alias reb="redis-server &"
 
 # elasticsearch
 alias e="elasticsearch"
+# run elasticsearch in background
+alias eb="elasticsearch &"
 
 #rabbitmq
 alias rmqd="rabbitmq-server --detached"
