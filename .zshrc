@@ -136,6 +136,7 @@ alias rj="rake jasmine"
 alias rcs="rails c --sandbox"
 alias bullog="tail -f log/bullet.log"
 alias rlc="rake log:clear"
+alias bers="bundle exec rails s"
 
 # rspec
 alias t="rspec"
