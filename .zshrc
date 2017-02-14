@@ -137,6 +137,7 @@ alias rcs="rails c --sandbox"
 alias bullog="tail -f log/bullet.log"
 alias rlc="rake log:clear"
 alias bers="bundle exec rails s"
+alias berc="bundle exec rails c"
 
 # rspec
 alias t="rspec"
