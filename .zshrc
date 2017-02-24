@@ -158,7 +158,6 @@ alias stp="stoppost"
 alias reb="redis-server &"
 
 # elasticsearch
-alias e="elasticsearch"
 # run elasticsearch in background
 alias eb="elasticsearch &"
 
@@ -196,6 +195,9 @@ alias ctags="`brew --prefix`/bin/ctags"
 #homebrew
 alias bi="brew install"
 alias bu="brew uninstall"
+
+#elixir
+alias e="elixir"
 
 #tmux
 alias tmls="tmux list-sessions"
