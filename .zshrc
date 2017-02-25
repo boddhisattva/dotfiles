@@ -199,6 +199,9 @@ alias bu="brew uninstall"
 #elixir
 alias e="elixir"
 
+#elixir tools
+alias x="iex"
+
 #tmux
 alias tmls="tmux list-sessions"
 
