@@ -202,6 +202,7 @@ alias e="elixir"
 #elixir tools
 alias x="iex"
 alias m="mix"
+alias mh="mix help"
 
 #tmux
 alias tmls="tmux list-sessions"
