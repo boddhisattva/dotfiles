@@ -204,6 +204,7 @@ alias x="iex"
 alias m="mix"
 alias mh="mix help"
 alias mc="mix credo"
+alias mcs="mix credo --strict"
 
 #tmux
 alias tmls="tmux list-sessions"
