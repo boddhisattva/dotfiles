@@ -205,6 +205,7 @@ alias m="mix"
 alias mh="mix help"
 alias mc="mix credo"
 alias mcs="mix credo --strict"
+alias mdg="mix deps.get"
 
 #tmux
 alias tmls="tmux list-sessions"
