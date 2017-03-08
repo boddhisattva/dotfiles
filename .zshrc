@@ -87,6 +87,7 @@ export PATH="/Users/mohnishgjadwani/.rvm/gems/ruby-1.9.3-p484@sb_prod/bin:/Users
 alias l='ls'
 alias ll='ls -al'
 alias tlf='tail -f'
+alias hg='history | grep'
 
 # bundle
 alias bi="bundle install"
