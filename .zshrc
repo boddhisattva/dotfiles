@@ -213,3 +213,6 @@ alias tmls="tmux list-sessions"
 
 #zsh related
 alias cpz="cp .zshrc ~/" # this will copy your updated .zshrc to your root directory. This assumes your pwd has a .zshrc file
+
+# jekyll
+alias bejs="bundle exec jekyll s"
