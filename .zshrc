@@ -199,6 +199,7 @@ alias bu="brew uninstall"
 
 #elixir
 alias e="elixir"
+alias ev="elixir --version"
 
 #elixir tools
 alias x="iex"
