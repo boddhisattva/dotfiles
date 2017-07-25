@@ -140,6 +140,7 @@ alias rlc="rake log:clear"
 alias bers="bundle exec rails s"
 alias berc="bundle exec rails c"
 alias berdm="bundle exec rake db:migrate"
+alias rph="rails plugin --help"
 
 # rspec
 alias t="rspec"
