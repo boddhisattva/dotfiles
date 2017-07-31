@@ -141,7 +141,7 @@ alias bers="bundle exec rails s"
 alias berc="bundle exec rails c"
 alias berdm="bundle exec rake db:migrate"
 alias rph="rails plugin --help"
-alias glg="gl | grep"
+alias glgr="gl | grep"
 
 # rspec
 alias t="rspec"
