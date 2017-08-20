@@ -92,7 +92,7 @@ alias hg='history | grep'
 # bundle
 alias bi="bundle install"
 alias be="bundle exec"
-alias b="bundle"
+alias bu="bundle update"
 
 # exercism
 alias ef="exercism fetch"
@@ -197,8 +197,8 @@ alias d=devlog
 alias ctags="`brew --prefix`/bin/ctags"
 
 #homebrew
-alias bi="brew install"
-alias bu="brew uninstall"
+alias bri="brew install"
+alias bru="brew uninstall"
 
 #elixir
 alias e="elixir"
