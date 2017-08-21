@@ -143,6 +143,9 @@ alias berdm="bundle exec rake db:migrate"
 alias rph="rails plugin --help"
 alias glgr="gl | grep"
 
+#rails engines
+alias rar="rake app:routes"
+
 # rspec
 alias t="rspec"
 alias sr="spring rspec"
