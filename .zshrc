@@ -145,6 +145,7 @@ alias glgr="gl | grep"
 
 #rails engines
 alias rar="rake app:routes"
+alias rarg="rake app:routes | grep"
 
 # rspec
 alias t="rspec"
