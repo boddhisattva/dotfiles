@@ -90,6 +90,7 @@ alias tlf='tail -f'
 alias hg='history | grep'
 
 # bundle
+alias b="bundle"
 alias bi="bundle install"
 alias be="bundle exec"
 alias bu="bundle update"
