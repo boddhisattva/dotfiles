@@ -1,6 +1,6 @@
 require 'irb/completion'
 
 alias q exit
-alias r require
+alias re require
 alias rr require_relative
 IRB.conf[:AUTO_INDENT] = true

@@ -1,3 +1,9 @@
+class Object
+  def r
+    reload!
+  end
+end
+
 Pry.config.commands.alias_command 'd',  'disable-pry'
 Pry.config.commands.alias_command 'e',  'exit'
 Pry.config.commands.alias_command 'ep', 'exit-program'
