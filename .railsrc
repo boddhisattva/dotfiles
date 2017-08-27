@@ -1,2 +1,3 @@
 --database=postgresql
 -T
+--skip-turbolinks
