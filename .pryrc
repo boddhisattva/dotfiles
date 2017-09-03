@@ -4,6 +4,12 @@ class Object
   end
 end
 
+module Kernel
+  def fg
+    FactoryGirl
+  end
+end
+
 Pry.config.commands.alias_command 'd',  'disable-pry'
 Pry.config.commands.alias_command 'e',  'exit'
 Pry.config.commands.alias_command 'ep', 'exit-program'
