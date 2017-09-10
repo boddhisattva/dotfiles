@@ -103,6 +103,7 @@ alias es="exercism submit"
 alias gi="gem install"
 alias gu="gem uninstall"
 alias gl="gem list"
+alias glgr="gem list | grep"
 
 #ruby
 alias rv="ruby -v"
