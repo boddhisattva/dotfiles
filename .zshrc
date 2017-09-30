@@ -194,6 +194,7 @@ alias grih="git rebase -i HEAD"
 # This is used for limiting commit messages width. Read more on - http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 textwidth=72
 alias grbom="git rebase origin/master"
+alias gsrt="git show-ref --tags"
 alias grbod="git rebase origin/develop"
 
 #zsh related
