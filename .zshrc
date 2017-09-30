@@ -94,6 +94,9 @@ alias b="bundle"
 alias bi="bundle install"
 alias be="bundle exec"
 alias bu="bundle update"
+alias buse="bundle update --source ms_core ms_lvsg travel_insurance credit_card tax_loan"
+alias busl="bundle update --source ms_lvsg"
+alias busc="bundle update --source ms_core"
 
 # exercism
 alias ef="exercism fetch"
@@ -196,6 +199,7 @@ textwidth=72
 alias grbom="git rebase origin/master"
 alias gsrt="git show-ref --tags"
 alias grbod="git rebase origin/develop"
+alias gcd="git checkout develop"
 
 #zsh related
 alias d=devlog
