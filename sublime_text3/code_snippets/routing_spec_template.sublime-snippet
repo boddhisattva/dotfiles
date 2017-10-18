@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+  it 'routes to #' do
+    expect(: '').to route_to(contoller: '', action: '')
+  end
+]]></content>
+  <tabTrigger>rs</tabTrigger>
+</snippet>
