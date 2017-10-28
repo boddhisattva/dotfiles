@@ -200,6 +200,7 @@ alias grbom="git rebase origin/master"
 alias gsrt="git show-ref --tags"
 alias grbod="git rebase origin/develop"
 alias gcd="git checkout develop"
+alias gbm="git branch -m"
 
 #zsh related
 alias d=devlog
