@@ -225,6 +225,11 @@ alias mc="mix credo"
 alias mcs="mix credo --strict"
 alias mdg="mix deps.get"
 
+#phoenix related
+alias mpn="mix phoenix.new"
+alias mec="mix ecto.create"
+alias mps="mix phoenix.server"
+
 #tmux
 alias tmls="tmux list-sessions"
 
