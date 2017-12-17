@@ -219,6 +219,7 @@ alias ev="elixir --version"
 
 #elixir tools
 alias x="iex"
+alias xsm="iex -S mix"
 alias m="mix"
 alias mh="mix help"
 alias mc="mix credo"
