@@ -212,6 +212,7 @@ alias ctags="`brew --prefix`/bin/ctags"
 #homebrew
 alias bri="brew install"
 alias bru="brew uninstall"
+alias brup="brew upgrade"
 
 #elixir
 alias e="elixir"
