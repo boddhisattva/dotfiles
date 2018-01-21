@@ -233,7 +233,7 @@ alias mdg="mix deps.get"
 #phoenix related
 alias mpn="mix phoenix.new"
 alias mec="mix ecto.create"
-alias mps="mix phoenix.server"
+alias mps="mix phx.server"
 
 #tmux
 alias tmls="tmux list-sessions"
