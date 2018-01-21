@@ -160,6 +160,9 @@ alias sr="spring rspec"
 # rubocop
 alias ra="rubocop -a"
 
+#go
+alias gv="go version"
+
 # heroku
 alias h="heroku"
 
