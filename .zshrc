@@ -55,7 +55,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/Users/mohnishgjadwani/.rvm/gems/ruby-1.9.3-p484@sb_prod/bin:/Users/mohnishgjadwani/.rvm/gems/ruby-1.9.3-p484@global/bin:/Users/mohnishgjadwani/.rvm/rubies/ruby-1.9.3-p484/bin:/Users/mohnishgjadwani/.rvm/bin:/Users/mohnishgjadwani/.rbenv/shims:/Users/mohnishgjadwani/.rbenv/bin:/usr/local/opt/nvm/v0.10.32/bin:/Users/mohnishgjadwani/.bin:/Users/mohnishgjadwani/.bin:/Users/mohnishgjadwani/.bin:/usr/local/bin:/Users/mohnishgjadwani/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/lib/node_modules"
+export PATH="/Users/mohnishgjadwani/.rvm/gems/ruby-1.9.3-p484@sb_prod/bin:/Users/mohnishgjadwani/.rvm/gems/ruby-1.9.3-p484@global/bin:/Users/mohnishgjadwani/.rvm/rubies/ruby-1.9.3-p484/bin:/Users/mohnishgjadwani/.rvm/bin:/Users/mohnishgjadwani/.rbenv/shims:/Users/mohnishgjadwani/.rbenv/bin:/usr/local/opt/nvm/v0.10.32/bin:/Users/mohnishgjadwani/.bin:/Users/mohnishgjadwani/.bin:/Users/mohnishgjadwani/.bin:/usr/local/bin:/Users/mohnishgjadwani/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/lib/node_modules:/Users/mohnishgj/.rvm/bin:/Users/mohnishgj/go/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
