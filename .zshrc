@@ -243,3 +243,8 @@ alias cpz="cp .zshrc ~/" # this will copy your updated .zshrc to your root direc
 
 # jekyll
 alias bejs="bundle exec jekyll s"
+
+# work
+# aservice
+alias mas="make server"
+alias mat="make test"
