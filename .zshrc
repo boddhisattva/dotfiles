@@ -229,11 +229,17 @@ alias mh="mix help"
 alias mc="mix credo"
 alias mcs="mix credo --strict"
 alias mdg="mix deps.get"
+alias mt="mix test"
 
 #phoenix related
 alias mpn="mix phoenix.new"
 alias mec="mix ecto.create"
 alias mps="mix phx.server"
+alias mpr="mix phx.routes"
+#phoenix IEx
+alias pc="iex -S mix"
+alias ims="iex -S mix phx.server"
+alias imt="iex -S mix test --trace"
 
 #tmux
 alias tmls="tmux list-sessions"
