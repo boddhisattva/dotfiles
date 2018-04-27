@@ -187,6 +187,7 @@ alias rmqd="rabbitmq-server --detached"
 alias staging=""
 
 #git
+alias giti="git init"
 alias grm="git rm"
 alias grb="git rebase"
 alias gcam="git commit -a -m"
