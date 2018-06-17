@@ -221,6 +221,9 @@ alias bri="brew install"
 alias bru="brew uninstall"
 alias brup="brew upgrade"
 
+#Automate development workflow
+alias is="invoker start invoker.ini"
+
 #elixir
 alias e="elixir"
 alias ev="elixir --version"
