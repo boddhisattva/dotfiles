@@ -6,24 +6,27 @@
 	[
 		"All Autocomplete",
 		"Alternative Autocompletion",
+		"AngularJS",
+		"AngularJS (CoffeeScript)",
 		"Better CoffeeScript",
 		"Better RSpec",
 		"BracketHighlighter",
 		"Clipboard Manager",
 		"CoffeeScriptHaml",
 		"DashDoc",
+		"Gitignored File Excluder",
 		"Gist",
 		"GitGutter",
 		"Github Color Theme",
-		"Markdown Preview",
-		"Package Control",
-		"RuboCop",
 		"Ruby on Rails snippets",
 		"RubyTest",
 		"SCSS",
 		"SublimeLinter",
 		"SublimeLinter-coffee",
+		"SublimeLinter-contrib-sublime-syntax",
 		"SublimeLinter-haml",
-		"SublimeLinter-jshint"
+		"SublimeLinter-jshint",
+		"TypeScript",
+		"TypeScript Syntax"
 	]
 }
