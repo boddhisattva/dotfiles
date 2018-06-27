@@ -208,6 +208,7 @@ alias gsrt="git show-ref --tags"
 alias grbod="git rebase origin/develop"
 alias gcd="git checkout develop"
 alias gbm="git branch -m"
+alias gbr="git branch -r" #see all remote git branches
 
 #zsh related
 alias d=devlog
