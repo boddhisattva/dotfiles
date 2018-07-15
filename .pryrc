@@ -5,8 +5,8 @@ class Object
 end
 
 module Kernel
-  def fg
-    FactoryGirl
+  def fb
+    FactoryBot
   end
 end
 
