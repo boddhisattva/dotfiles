@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+namespace :namespace_name do
+  desc 'You can describe what the task is about here'
+  task name_of_task: :environment do
+    # Always good to handle failures with rake tasks and log them
+    begin
+
+    rescue => e
+      puts "Error: #{e.message}"
+      # next - this is something you can consider using as well if you want
+      # the loop related iteration to continue till the end of the loop
+    end
+  end
+end
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rat</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
