@@ -235,10 +235,13 @@ alias xsm="iex -S mix"
 alias m="mix"
 alias mn="mix new"
 alias mh="mix help"
-alias mc="mix credo"
-alias mcs="mix credo --strict"
+alias mcr="mix credo"
+alias mcrs="mix credo --strict"
 alias mdg="mix deps.get"
 alias mt="mix test"
+alias mf="mix format"
+alias mc="mix compile"
+alias meb="mix escript.build"
 
 #phoenix related
 alias mpn="mix phoenix.new"
@@ -263,6 +266,9 @@ alias bejs="bundle exec jekyll s"
 # aservice
 alias mas="make server"
 alias mat="make test"
+
+# asdf
+alias ale="asdf local elixir"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
