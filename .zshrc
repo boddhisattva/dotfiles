@@ -242,6 +242,7 @@ alias mt="mix test"
 alias mf="mix format"
 alias mc="mix compile"
 alias meb="mix escript.build"
+alias md="mix dialyzer"
 
 #phoenix related
 alias mpn="mix phoenix.new"
