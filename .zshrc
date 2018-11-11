@@ -163,6 +163,10 @@ alias rgri="rails g rspec:install"
 # rubocop
 alias ra="rubocop -a"
 
+#tools to help you improve your ruby code
+alias rc="rubycritic"
+alias fa="fasterer"
+
 #go
 alias gv="go version"
 
