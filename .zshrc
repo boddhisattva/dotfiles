@@ -157,6 +157,9 @@ alias rarg="rake app:routes | grep"
 alias t="rspec"
 alias sr="spring rspec"
 
+# guard
+alias g="guard"
+
 #rspec-rails
 alias rgri="rails g rspec:install"
 
