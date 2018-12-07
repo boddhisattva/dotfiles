@@ -13,3 +13,6 @@ Style/EmptyLinesAroundBlockBody:
 # A line with 80 characters length is generally too small
 Metrics/LineLength:
   Max: 120
+
+Layout/IndentationConsistency:
+  EnforcedStyle: rails
