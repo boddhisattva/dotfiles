@@ -159,6 +159,7 @@ alias sr="spring rspec"
 
 # guard
 alias g="guard"
+alias gi="guard init"
 
 #rspec-rails
 alias rgri="rails g rspec:install"
