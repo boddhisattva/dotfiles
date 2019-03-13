@@ -93,6 +93,7 @@ alias hg='history | grep'
 alias b="bundle"
 alias bi="bundle install"
 alias be="bundle exec"
+alias beg="bundle exec guard"
 alias bu="bundle update"
 alias buse="bundle update --source ms_core ms_lvsg travel_insurance credit_card tax_loan"
 alias busl="bundle update --source ms_lvsg"
