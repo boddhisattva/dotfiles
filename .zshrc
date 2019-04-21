@@ -92,6 +92,7 @@ alias hg='history | grep'
 # bundle
 alias b="bundle"
 alias bi="bundle install"
+alias bil="bundle install --local"
 alias be="bundle exec"
 alias beg="bundle exec guard"
 alias bu="bundle update"
