@@ -27,6 +27,8 @@
 		"SublimeLinter-haml",
 		"SublimeLinter-jshint",
 		"TypeScript",
-		"TypeScript Syntax"
+		"TypeScript Syntax",
+		"Emmet",
+		"RuboCop"
 	]
 }
