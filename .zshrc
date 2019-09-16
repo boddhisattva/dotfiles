@@ -107,7 +107,7 @@ alias es="exercism submit"
 #gems
 alias gi="gem install"
 alias gu="gem uninstall"
-alias gl="gem list"
+alias gli="gem list"
 alias glgr="gem list | grep"
 
 #ruby
@@ -158,6 +158,9 @@ alias rarg="rake app:routes | grep"
 # rspec
 alias t="rspec"
 alias sr="spring rspec"
+
+# cucumber
+alias c="cucumber"
 
 # guard
 alias g="guard"
@@ -219,6 +222,7 @@ alias grbod="git rebase origin/develop"
 alias gcd="git checkout develop"
 alias gbm="git branch -m"
 alias gbr="git branch -r" #see all remote git branches
+alias gl="git pull"
 
 #zsh related
 alias d=devlog
@@ -263,6 +267,10 @@ alias mpr="mix phx.routes"
 alias pc="iex -S mix"
 alias ims="iex -S mix phx.server"
 alias imt="iex -S mix test --trace"
+
+#js
+alias ni="npm install"
+alias ns="npm start"
 
 #tmux
 alias tmls="tmux list-sessions"
