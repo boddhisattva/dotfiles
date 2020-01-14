@@ -171,6 +171,7 @@ alias rgri="rails g rspec:install"
 
 # rubocop
 alias ra="rubocop -a"
+alias ras="rubocop --require rubocop-rspec -a"
 
 #tools to help you improve your ruby code
 alias ruc="rubycritic"
