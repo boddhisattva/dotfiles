@@ -156,6 +156,7 @@ alias rar="rake app:routes"
 alias rarg="rake app:routes | grep"
 
 # rspec
+alias bet="bundle exec rspec"
 alias t="rspec"
 alias sr="spring rspec"
 
