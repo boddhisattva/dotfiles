@@ -106,6 +106,7 @@ alias es="exercism submit"
 
 #gems
 alias gi="gem install"
+alias gibb="gem install bundler & bundle"
 alias gu="gem uninstall"
 alias gli="gem list"
 alias glgr="gem list | grep"
