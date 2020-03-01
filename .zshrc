@@ -166,7 +166,7 @@ alias c="cucumber"
 
 # guard
 alias g="guard"
-alias gi="guard init"
+alias gui="guard init"
 
 #rspec-rails
 alias rgri="rails g rspec:install"
