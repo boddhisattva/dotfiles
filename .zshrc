@@ -56,6 +56,9 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export PATH="/Users/mohnishgjadwani/.rvm/gems/ruby-1.9.3-p484@sb_prod/bin:/Users/mohnishgjadwani/.rvm/gems/ruby-1.9.3-p484@global/bin:/Users/mohnishgjadwani/.rvm/rubies/ruby-1.9.3-p484/bin:/Users/mohnishgjadwani/.rvm/bin:/Users/mohnishgjadwani/.rbenv/shims:/Users/mohnishgjadwani/.rbenv/bin:/usr/local/opt/nvm/v0.10.32/bin:/Users/mohnishgjadwani/.bin:/Users/mohnishgjadwani/.bin:/Users/mohnishgjadwani/.bin:/usr/local/bin:/Users/mohnishgjadwani/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/lib/node_modules:/Users/mohnishgj/.rvm/bin:/Users/mohnishgj/go/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/opt/node@8/bin:$PATH"
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -138,7 +141,8 @@ alias st="spring stop"
 alias rdcm="rake db:create && rake db:migrate"
 alias rdct="rake db:create RAILS_ENV=test"
 alias rdmt="rake db:migrate RAILS_ENV=test"
-alias rct="rails c test"
+alias rcto="rails c test"
+alias rctn="rails c -e test"
 alias rsp="rails s -p"
 alias rapp="rake assets:precompile RAILS_ENV=production"
 alias rsprod="rails s -e production"
@@ -168,6 +172,7 @@ alias c="cucumber"
 # guard
 alias g="guard"
 alias gui="guard init"
+alias guir="guard init rspec"
 
 #rspec-rails
 alias rgri="rails g rspec:install"
