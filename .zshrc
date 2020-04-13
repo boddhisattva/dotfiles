@@ -190,6 +190,9 @@ alias gv="go version"
 
 # heroku
 alias h="heroku"
+alias hdm="heroku run rake db:migrate"
+alias hc="heroku console"
+alias hl="heroku logs"
 
 # postgres
 alias sp="startpost"
