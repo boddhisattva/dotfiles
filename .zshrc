@@ -185,6 +185,9 @@ alias ras="rubocop --require rubocop-rspec -a"
 alias ruc="rubycritic"
 alias fa="fasterer"
 
+#Manage Procfile-based applications
+alias fs="foreman start"
+
 #go
 alias gv="go version"
 
