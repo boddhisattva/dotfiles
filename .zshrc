@@ -240,6 +240,7 @@ alias gbm="git branch -m"
 alias gbr="git branch -r" #see all remote git branches
 alias gl="git pull"
 alias grso="git remote set-url origin"
+alias gpab="git push --all origin" #git push all branches to remote
 
 #zsh related
 alias d=devlog
