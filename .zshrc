@@ -239,6 +239,7 @@ alias gcd="git checkout develop"
 alias gbm="git branch -m"
 alias gbr="git branch -r" #see all remote git branches
 alias gl="git pull"
+alias grso="git remote set-url origin"
 
 #zsh related
 alias d=devlog
