@@ -74,5 +74,155 @@
       "require 'rails_helper'"
     ],
     "description": "rspec require rails helper"
+  },
+  "rspec double": {
+    "prefix": "rd",
+    "body": [
+      "double('')"
+    ],
+    "description": "rspec double"
+  },
+  "begin rescue end": {
+    "prefix": "bre",
+    "body": [
+      "begin",
+      "",
+      "rescue => e",
+      "",
+      "end"
+    ],
+    "description": "begin rescue end"
+  },
+  "rails rspec options": {
+    "prefix": "rro",
+    "body": [
+      "--color",
+      "--format documentation",
+      "--backtrace"
+    ],
+    "description": "rails rspec options"
+  },
+  "rspec setup should matchers": {
+    "prefix": "rssm",
+    "body": [
+      "require 'shoulda-matchers'",
+      "Shoulda::Matchers.configure do |config|",
+      "  config.integrate do |with|",
+      "    with.test_framework :rspec",
+      "    with.library :rails",
+      "  end",
+      "end"
+    ],
+    "description": "rspec setup should matchers"
+  },
+  "rspec new block": {
+    "prefix": "rnb",
+    "body": [
+      "describe ClassName do",
+      "  describe \"#\" do",
+      "    context \"\" do",
+      "      it \"\" do",
+      "      end",
+      "    end",
+      "  end",
+      "end"
+    ],
+    "description": "rspec new block"
+  },
+  "rspec new method block": {
+    "prefix": "rnmb",
+    "body": [
+      "describe \"#\" do",
+      "  context \"\" do",
+      "    it \"\" do",
+      "    end",
+      "  end",
+      "end"
+    ],
+    "description": "rspec new method block"
+  },
+  "rspec expect equal": {
+    "prefix": "ree",
+    "body": [
+      "expect().to eq()"
+    ],
+    "description": "rspec expect equal"
+  },
+  "rspec require lib files": {
+    "prefix": "rrl",
+    "body": [
+      "PROJECT_ROOT = File.expand_path('..', __dir__)",
+      "",
+      "Dir.glob(File.join(PROJECT_ROOT, 'lib', '*.rb')).sort.each do |file|",
+      "  require file",
+      "end"
+    ],
+    "description": "rspec require lib files"
+  },
+  "rspec require lib files in spec_helper": {
+    "prefix": "rrl",
+    "body": [
+      "PROJECT_ROOT = File.expand_path('..', __dir__)",
+      "",
+      "Dir.glob(File.join(PROJECT_ROOT, 'lib', '*.rb')).sort.each do |file|",
+      "  require file",
+      "end"
+    ],
+    "description": "rspec require lib files in spec_helper"
+  },
+  "rspect expec raise error": {
+    "prefix": "rere",
+    "body": [
+      "expect {  }.to raise_error(, \"\")"
+    ],
+    "description": "rspect expec raise error"
+  },
+  "rspec new context block": {
+    "prefix": "rncb",
+    "body": [
+      "context '' do",
+      "  it '' do",
+      "  end",
+      "end",
+      ""
+    ],
+    "description": "rspec new context block"
+  },
+  "rspec new it block": {
+    "prefix": "rnib",
+    "body": [
+      "it '' do",
+      "end",
+      ""
+    ],
+    "description": "rspec new it block"
+  },
+  "view pry": {
+    "prefix": "vp",
+    "body": [
+      "<% binding.pry %>"
+    ],
+    "description": "view pry"
+  },
+  "rails db migrations null false": {
+    "prefix": "nf",
+    "body": [
+      " null: false"
+    ],
+    "description": "rails db migrations null false"
+  },
+  "shoulda matcher belong_to": {
+    "prefix": "itbt",
+    "body": [
+      "it { should belong_to(:) }"
+    ],
+    "description": "should matcher belong_to"
+  },
+  "shoulda matcher have many": {
+    "prefix": "ithm",
+    "body": [
+      "it { should have_many(:) }"
+    ],
+    "description": "shoulda matcher have many"
   }
 }
