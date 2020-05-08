@@ -161,6 +161,9 @@ alias glgr="gl | grep"
 alias rar="rake app:routes"
 alias rarg="rake app:routes | grep"
 
+#rake
+alias rt="rake test" #to run all tests from Rakefile, more here: https://stackoverflow.com/questions/4788288/how-to-run-all-tests-with-minitest
+
 # rspec
 alias bet="bundle exec rspec"
 alias t="rspec"
