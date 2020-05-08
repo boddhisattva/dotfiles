@@ -307,6 +307,11 @@ alias bejs="bundle exec jekyll s"
 alias mas="make server"
 alias mat="make test"
 
+
+# VSCode
+#copy latest ruby snippets created on VS code to dotfiles
+alias clrs="cp ~/Library/Application\ Support/Code/User/snippets/ruby.json vscode/"
+
 # asdf
 alias ale="asdf local elixir"
 
