@@ -309,8 +309,8 @@ alias mat="make test"
 
 
 # VSCode
-#copy latest ruby snippets created on VS code to dotfiles
-alias clrs="cp ~/Library/Application\ Support/Code/User/snippets/ruby.json vscode/"
+#copy latest ruby snippets created on VS code to dotfiles #user system specific alias
+alias clrs="cp ~/Library/Application\ Support/Code/User/snippets/ruby.json /Users/mohnishgjadwani/programming/open_source_contributions/dotfiles/vscode/"
 
 # asdf
 alias ale="asdf local elixir"
