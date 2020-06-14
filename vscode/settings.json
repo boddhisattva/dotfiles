@@ -2,7 +2,7 @@
     "workbench.colorTheme": "Github",
     "files.autoSave": "onFocusChange",
     "ruby.rubocop.onSave": true,
-    "ruby.rubocop.executePath": "/Users/mohnish/.rvm/gems/ruby-2.3.7@gemset_name/bin/",
+    "ruby.rubocop.executePath": "/Users/your_username_on_ur_computer/.rvm/gems/ruby-2.7.0@experiments/bin/",
     "solargraph.diagnostics": true,
     "files.insertFinalNewline": true,
     "editor.fontSize": 16,
@@ -13,5 +13,8 @@
     "editor.snippetSuggestions": "top",
     "editor.minimap.enabled": false,
     "ruby.rubocop.useBundler": true,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "newUntitledFile"
 }
