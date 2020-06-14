@@ -1,0 +1,27 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "cmd+;",
+        "command": "expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+l",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+;",
+        "command": "expandLineSelection",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+l",
+        "command": "-expandLineSelection",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+cmd+5",
+        "command": "workbench.action.editorLayoutTwoByTwoGrid"
+    }
+]
