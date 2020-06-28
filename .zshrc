@@ -141,6 +141,7 @@ alias st="spring stop"
 alias rdcm="rake db:create && rake db:migrate"
 alias rdct="rake db:create RAILS_ENV=test"
 alias rdmt="rake db:migrate RAILS_ENV=test"
+alias rds="rake db:seed"
 alias rcto="rails c test"
 alias rctn="rails c -e test"
 alias rsp="rails s -p"
@@ -165,8 +166,7 @@ alias rarg="rake app:routes | grep"
 alias rt="rake test" #to run all tests from Rakefile, more here: https://stackoverflow.com/questions/4788288/how-to-run-all-tests-with-minitest
 
 # rspec
-alias bet="bundle exec rspec"
-alias t="rspec"
+alias t="bundle exec rspec"
 alias sr="spring rspec"
 
 # cucumber
@@ -200,9 +200,11 @@ alias hdm="heroku run rake db:migrate"
 alias hc="heroku console"
 alias hl="heroku logs"
 
-# postgres
+# postgres, these aliases eventually link to the aliases of the zsh postgres plugin
 alias sp="startpost"
 alias stp="stoppost"
+alias rp="restartpost"
+alias pst="statuspost" #similar to git status
 
 #redis
 alias reb="redis-server &"
@@ -302,11 +304,13 @@ alias cpz="cp .zshrc ~/" # this will copy your updated .zshrc to your root direc
 # jekyll
 alias bejs="bundle exec jekyll s"
 
+# system processes
+alias pag="ps aux|grep "
+
 # work
 # aservice
 alias mas="make server"
 alias mat="make test"
-
 
 # VSCode
 #copy latest ruby snippets created on VS code to dotfiles #user system specific alias
