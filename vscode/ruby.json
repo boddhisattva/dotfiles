@@ -1,0 +1,284 @@
+{
+	// Place your snippets for ruby here. Each snippet is defined under a snippet name and has a prefix, body and
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"debug with binding.pry": {
+		"prefix": "bp",
+		"body": [
+			"binding.pry"
+		],
+		"description": "debug with binding.pry"
+	},
+	"require something": {
+		"prefix": "re",
+		"body": [
+			"require ''"
+		],
+		"description": "require something"
+	},
+	"require pry": {
+		"prefix": "rp",
+		"body": [
+			"require 'pry'"
+		],
+		"description": "require pry"
+	},
+	"require spec support": {
+		"prefix": "rss",
+		"body": [
+			"Dir[Rails.root.join('spec/support/**/*.rb')].sort.each { |f| require f }"
+		],
+		"description": "require spec support"
+	},
+	"rspec new block": {
+		"prefix": "rnb",
+		"body": [
+			"describe do",
+			"  describe \"#\" do",
+			"    context \"\" do",
+			"      it \"\" do",
+			"      end",
+			"    end",
+			"  end",
+			"end"
+		],
+		"description": "rspec new block"
+	},
+	"rspec allow": {
+		"prefix": "ra",
+		"body": [
+			"allow().to receive() {}"
+		],
+		"description": "rspec allow"
+	},
+	"rspec equal matcher": {
+		"prefix": "rem",
+		"body": [
+			"expect().to eq()"
+		],
+		"description": "rspec equal matcher"
+	},
+	"rspec require rails helper": {
+		"prefix": "rrh",
+		"body": [
+			"require 'rails_helper'"
+		],
+		"description": "rspec require rails helper"
+	},
+	"rspec double": {
+		"prefix": "rd",
+		"body": [
+			"double('')"
+		],
+		"description": "rspec double"
+	},
+	"begin rescue end": {
+		"prefix": "bre",
+		"body": [
+			"begin",
+			"",
+			"rescue => e",
+			"",
+			"end"
+		],
+		"description": "begin rescue end"
+	},
+	"rails rspec options": {
+		"prefix": "rro",
+		"body": [
+			"--color",
+			"--format documentation",
+			"--backtrace"
+		],
+		"description": "rails rspec options"
+	},
+	"rspec setup should matchers": {
+		"prefix": "rssm",
+		"body": [
+			"require 'shoulda-matchers'",
+			"Shoulda::Matchers.configure do |config|",
+			"  config.integrate do |with|",
+			"    with.test_framework :rspec",
+			"    with.library :rails",
+			"  end",
+			"end"
+		],
+		"description": "rspec setup should matchers"
+	},
+	"rspec new block": {
+		"prefix": "rnb",
+		"body": [
+			"describe ClassName do",
+			"  describe \"#\" do",
+			"    context \"\" do",
+			"      it \"\" do",
+			"      end",
+			"    end",
+			"  end",
+			"end"
+		],
+		"description": "rspec new block"
+	},
+	"rspec new method block": {
+		"prefix": "rnmb",
+		"body": [
+			"describe \"#\" do",
+			"  context \"\" do",
+			"    it \"\" do",
+			"    end",
+			"  end",
+			"end"
+		],
+		"description": "rspec new method block"
+	},
+	"rspec expect equal": {
+		"prefix": "ree",
+		"body": [
+			"expect().to eq()"
+		],
+		"description": "rspec expect equal"
+	},
+	"rspec require lib files": {
+		"prefix": "rrl",
+		"body": [
+			"PROJECT_ROOT = File.expand_path('..', __dir__)",
+			"",
+			"Dir.glob(File.join(PROJECT_ROOT, 'lib', '*.rb')).sort.each do |file|",
+			"  require file",
+			"end"
+		],
+		"description": "rspec require lib files"
+	},
+	"rspec require lib files in spec_helper": {
+		"prefix": "rrl",
+		"body": [
+			"PROJECT_ROOT = File.expand_path('..', __dir__)",
+			"",
+			"Dir.glob(File.join(PROJECT_ROOT, 'lib', '*.rb')).sort.each do |file|",
+			"  require file",
+			"end"
+		],
+		"description": "rspec require lib files in spec_helper"
+	},
+	"rspect expec raise error": {
+		"prefix": "rere",
+		"body": [
+			"expect {  }.to raise_error(, \"\")"
+		],
+		"description": "rspect expec raise error"
+	},
+	"rspec new context block": {
+		"prefix": "rncb",
+		"body": [
+			"context '' do",
+			"  it '' do",
+			"  end",
+			"end",
+			""
+		],
+		"description": "rspec new context block"
+	},
+	"rspec new it block": {
+		"prefix": "rnib",
+		"body": [
+			"it '' do",
+			"end",
+			""
+		],
+		"description": "rspec new it block"
+	},
+	"view pry": {
+		"prefix": "vp",
+		"body": [
+			"<% binding.pry %>"
+		],
+		"description": "view pry"
+	},
+	"rails db migrations null false": {
+		"prefix": "nf",
+		"body": [
+			" null: false"
+		],
+		"description": "rails db migrations null false"
+	},
+	"shoulda matcher belong_to": {
+		"prefix": "itbt",
+		"body": [
+			"it { should belong_to(:) }"
+		],
+		"description": "should matcher belong_to"
+	},
+	"shoulda matcher have many": {
+		"prefix": "ithm",
+		"body": [
+			"it { should have_many(:) }"
+		],
+		"description": "shoulda matcher have many"
+	},
+	"rspec new system tests": {
+		"prefix": "rnst",
+		"body": [
+			"describe \"\", type: :system do",
+			"  describe \"#\" do",
+			"    context \"\" do",
+			"      it \"\" do",
+			"      end",
+			"    end",
+			"  end",
+			"end"
+		],
+		"description": "rspec new system tests"
+	},
+	"capybara save and open page": {
+		"prefix": "sop",
+		"body": [
+			"save_and_open_page"
+		],
+		"description": "capybara save and open page"
+	},
+	"Capybara fill in with": {
+		"prefix": "cfw",
+		"body": [
+			"fill_in '', with: ''"
+		],
+		"description": "Capybara fill in with"
+	},
+	"shoulda matcher validate presence of": {
+		"prefix": "smvp",
+		"body": [
+			"it { should validate_presence_of(:) }"
+		],
+		"description": "shoulda matcher validates presence of"
+	},
+	"capybara expect page text": {
+		"prefix": "cept",
+		"body": [
+			"expect(page).to have_text('')"
+		],
+		"description": "capybara expect page text"
+	},
+	"model validates uniqueness": {
+		"prefix": "mvu",
+		"body": [
+			"validates :, uniqueness: true"
+		],
+		"description": "model validates uniqueness"
+	},
+	"model validates presence": {
+		"prefix": "mvp",
+		"body": [
+			"validates :, presence: true"
+		],
+		"description": "model validates presence"
+	}
+}
