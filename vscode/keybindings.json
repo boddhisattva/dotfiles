@@ -23,5 +23,21 @@
     {
         "key": "alt+cmd+5",
         "command": "workbench.action.editorLayoutTwoByTwoGrid"
+    },
+    {
+        "key": "cmd+j cmd+l",
+        "command": "extension.runFileSpecs"
+    },
+    {
+        "key": "shift+cmd+t",
+        "command": "-extension.runFileSpecs"
+    },
+    {
+        "key": "cmd+a",
+        "command": "editor.action.selectAll"
+    },
+    {
+        "key": "cmd+a",
+        "command": "-editor.action.selectAll"
     }
 ]
