@@ -259,5 +259,26 @@
       "it { should validate_presence_of(:) }"
     ],
     "description": "shoulda matcher validates presence of"
+  },
+  "capybara expect page text": {
+    "prefix": "cept",
+    "body": [
+      "expect(page).to have_text('')"
+    ],
+    "description": "capybara expect page text"
+  },
+  "model validates uniqueness": {
+    "prefix": "mvu",
+    "body": [
+      "validates :, uniqueness: true"
+    ],
+    "description": "model validates uniqueness"
+  },
+  "model validates presence": {
+    "prefix": "mvp",
+    "body": [
+      "validates :, presence: true"
+    ],
+    "description": "model validates presence"
   }
 }
