@@ -122,7 +122,7 @@ alias rgu='rvm gemset use'
 alias rl='rvm list'
 alias rgl='rvm gemset list'
 alias rcg='rvm current gemset'
-alias rgc='rvm gemset create'
+#alias rgc='rvm gemset create' not using that much more any more because rcr seems to do the job for me at the moment pretty well
 alias ru='rvm use'
 alias rcr='rvm --create --ruby-version'
 alias rre='rvm remove'
@@ -142,7 +142,7 @@ alias rdcm="rake db:create && rake db:migrate"
 alias rdct="rake db:create RAILS_ENV=test"
 alias rdmt="rake db:migrate RAILS_ENV=test"
 alias rds="rake db:seed"
-alias rcto="rails c test"
+alias rct="rails c test"
 alias rctn="rails c -e test"
 alias rsp="rails s -p"
 alias rapp="rake assets:precompile RAILS_ENV=production"
@@ -157,6 +157,9 @@ alias berc="bundle exec rails c"
 alias berdm="bundle exec rake db:migrate"
 alias rph="rails plugin --help"
 alias glgr="gl | grep"
+alias rg='rails generate'
+alias rgc='rails generate controller'
+alias rgmo='rails generate model'
 
 #rails engines
 alias rar="rake app:routes"
@@ -246,6 +249,7 @@ alias gbr="git branch -r" #see all remote git branches
 alias gl="git pull"
 alias grso="git remote set-url origin"
 alias gpab="git push --all origin" #git push all branches to remote
+alias gsr="git reset --soft HEAD~1" #git soft revert; credits: https://stackoverflow.com/a/62425854/272398
 
 #zsh related
 alias d=devlog
