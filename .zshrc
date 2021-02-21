@@ -49,7 +49,7 @@ unsetopt nomatch
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git rails postgres z sublime rvm)
+plugins=(git rails postgres z sublime rvm docker docker-compose)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -102,6 +102,8 @@ alias bu="bundle update"
 alias buse="bundle update --source ms_core ms_lvsg travel_insurance credit_card tax_loan"
 alias busl="bundle update --source ms_lvsg"
 alias busc="bundle update --source ms_core"
+alias bv="bundler --version"
+
 
 # exercism
 alias ef="exercism fetch"
@@ -127,6 +129,7 @@ alias ru='rvm use'
 alias rcr='rvm --create --ruby-version'
 alias rre='rvm remove'
 alias ri='rvm info'
+alias rgh='rvm gemset home' #helps in tracing the gems related location if you'd need to modify them in anyway
 
 # ruby
 alias i="irb"
@@ -142,8 +145,8 @@ alias rdcm="rake db:create && rake db:migrate"
 alias rdct="rake db:create RAILS_ENV=test"
 alias rdmt="rake db:migrate RAILS_ENV=test"
 alias rds="rake db:seed"
-alias rct="rails c test"
-alias rctn="rails c -e test"
+alias rcto="rails c test" # here 'o' refers to the older syntax to access rails test console
+alias rct="rails c -e test"
 alias rsp="rails s -p"
 alias rapp="rake assets:precompile RAILS_ENV=production"
 alias rsprod="rails s -e production"
@@ -160,6 +163,9 @@ alias glgr="gl | grep"
 alias rg='rails generate'
 alias rgc='rails generate controller'
 alias rgmo='rails generate model'
+alias rdem='rails destroy migration'
+alias rdemo='rails destroy model'
+alias rav='rails --version'
 
 #rails engines
 alias rar="rake app:routes"
@@ -323,9 +329,18 @@ alias clrs="cp ~/Library/Application\ Support/Code/User/snippets/ruby.json /User
 # asdf
 alias ale="asdf local elixir"
 
+# docker
+
+alias dps="docker ps"
+alias da="docker attach"
+
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
 . $HOME/.asdf/asdf.sh
 
 . $HOME/.asdf/completions/asdf.bash
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
