@@ -330,9 +330,14 @@ alias clrs="cp ~/Library/Application\ Support/Code/User/snippets/ruby.json /User
 alias ale="asdf local elixir"
 
 # docker
-
 alias dps="docker ps"
 alias da="docker attach"
+alias db="docker docker-compose build"
+
+# docker app specific commands
+alias d="docker-compose exec organizations-app bundle exec"
+alias drdm="docker-compose exec organizations-app bundle exec rake db:migrate"
+alias drdc="docker-compose exec organizations-app bundle exec rails console" #app specific
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
