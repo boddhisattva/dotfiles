@@ -179,7 +179,7 @@ alias t="bundle exec rspec"
 alias sr="spring rspec"
 
 # cucumber
-alias c="cucumber"
+alias cu="cucumber"
 
 # guard
 alias g="guard"
@@ -191,6 +191,7 @@ alias rgri="rails g rspec:install"
 
 # rubocop
 alias ra="rubocop -a"
+alias ar="rubocop -A"
 alias ras="rubocop --require rubocop-rspec -a"
 
 #tools to help you improve your ruby code
@@ -229,11 +230,13 @@ alias rmqd="rabbitmq-server --detached"
 alias staging=""
 
 #git
+alias gh="github"
 alias gl="git pull"
 alias giti="git init"
 alias grm="git rm"
 alias grb="git rebase"
 alias gcam="git commit -a -m"
+alias gt="git commit -m"
 alias gc="git clone"
 alias gs="git stash"
 alias gsp="git stash pop"
@@ -256,6 +259,11 @@ alias gl="git pull"
 alias grso="git remote set-url origin"
 alias gpab="git push --all origin" #git push all branches to remote
 alias gsr="git reset --soft HEAD~1" #git soft revert; credits: https://stackoverflow.com/a/62425854/272398
+alias gcos="git checkout staging"
+alias gbds="git branch -D staging"
+alias grs="git branch -D staging && git checkout staging" #do this after checking out latest master branch only with alias cmd gl
+alias gres="git restore --staged"
+alias gca="git commit --amend"
 
 #zsh related
 alias d=devlog
@@ -342,9 +350,8 @@ alias drdc="docker-compose exec organizations-app bundle exec rails console" #ap
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
-. $HOME/.asdf/asdf.sh
-
-. $HOME/.asdf/completions/asdf.bash
+# . $HOME/.asdf/asdf.sh # check later if needed for now its giving an error 'no such file or directory'
+# . $HOME/.asdf/completions/asdf.bash
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
