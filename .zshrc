@@ -55,6 +55,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# TODO: the below needs clean up , it is not the latest and things like sb_prod etc., can be removed as they are lon longer used..
 export PATH="/Users/mohnishgjadwani/.rvm/gems/ruby-1.9.3-p484@sb_prod/bin:/Users/mohnishgjadwani/.rvm/gems/ruby-1.9.3-p484@global/bin:/Users/mohnishgjadwani/.rvm/rubies/ruby-1.9.3-p484/bin:/Users/mohnishgjadwani/.rvm/bin:/Users/mohnishgjadwani/.rbenv/shims:/Users/mohnishgjadwani/.rbenv/bin:/usr/local/opt/nvm/v0.10.32/bin:/Users/mohnishgjadwani/.bin:/Users/mohnishgjadwani/.bin:/Users/mohnishgjadwani/.bin:/usr/local/bin:/Users/mohnishgjadwani/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/lib/node_modules:/Users/mohnishgj/.rvm/bin:/Users/mohnishgj/go/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/opt/node@8/bin:$PATH"
 
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
@@ -153,7 +154,7 @@ alias rsprod="rails s -e production"
 alias rrg="rake routes | grep"
 alias rj="rake jasmine"
 alias rcs="rails c --sandbox"
-alias bullog="tail -f log/bullet.log"
+alias blg="tail -f log/bullet.log"
 alias rlc="rake log:clear"
 alias bers="bundle exec rails s"
 alias berc="bundle exec rails c"
@@ -246,6 +247,7 @@ alias gpom="git push origin master"
 alias gpoh="git push origin HEAD" # git push current branch via - http://stackoverflow.com/questions/14031970/git-push-current-branch-shortcut
 alias gpohf="git push origin HEAD -f"
 alias gr="git reset"
+alias grev="git revert" # git revert commit_id# #check existing zsh alias
 alias grih="git rebase -i HEAD"
 # This is used for limiting commit messages width. Read more on - http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 textwidth=72
@@ -276,6 +278,7 @@ alias ctags="`brew --prefix`/bin/ctags"
 alias bri="brew install"
 alias bru="brew uninstall"
 alias brup="brew upgrade"
+alias brr="brew reinstall"
 
 #Automate development workflow
 alias is="invoker start invoker.ini"
@@ -337,6 +340,10 @@ alias clrs="cp ~/Library/Application\ Support/Code/User/snippets/ruby.json /User
 # asdf
 alias ale="asdf local elixir"
 
+# bash
+alias bv="bash --version"
+alias wb="which bash"
+
 # docker
 alias dps="docker ps"
 alias da="docker attach"
@@ -349,6 +356,13 @@ alias drdc="docker-compose exec organizations-app bundle exec rails console" #ap
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+# Load the current latest version of bash in ZSH to leverage latest bash functions
+# remember you to also edit your subl /etc/shells to add the latest installed bash path to it
+# You will know your latest bash installation path(if installed via brew) at the time of install
+# Why add $PATH to the end: to make it the first directory instead, otherwise some existing version of bash will be picked up by anything looking down your PATH.
+# More on the above & why add $PATH to the end instead of the beginning is beauitfully explained here: https://stackoverflow.com/a/78274517/272398
+export PATH="/opt/homebrew/Cellar/bash/5.2.26/bin:$PATH"
 
 # . $HOME/.asdf/asdf.sh # check later if needed for now its giving an error 'no such file or directory'
 # . $HOME/.asdf/completions/asdf.bash
