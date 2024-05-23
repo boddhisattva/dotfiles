@@ -1,16 +1,9 @@
 <snippet>
   <content><![CDATA[
-describe do
-  describe "#" do
-    context "" do
-      it "" do
-      end
-    end
-  end
-end
+require 'pry'
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>rndb</tabTrigger>
+  <tabTrigger>rp</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <!-- <scope>source.python</scope> -->
 </snippet>
