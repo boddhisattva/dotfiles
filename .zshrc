@@ -1,6 +1,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES #added because of not being able to run rake tasks(https://github.com/rails/rails/issues/38560)
+export DISABLE_SPRING=true #added because of not being able to run rake tasks
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -92,6 +95,7 @@ alias l='ls'
 alias ll='ls -al'
 alias tlf='tail -f'
 alias hg='history | grep'
+alias to='touch'
 
 # bundle
 alias b="bundle"
@@ -167,6 +171,7 @@ alias rgmo='rails generate model'
 alias rdem='rails destroy migration'
 alias rdemo='rails destroy model'
 alias rav='rails --version'
+alias rarg='rake api:routes | grep'
 
 #rails engines
 alias rar="rake app:routes"
@@ -177,6 +182,7 @@ alias rt="rake test" #to run all tests from Rakefile, more here: https://stackov
 
 # rspec
 alias t="bundle exec rspec"
+alias ri="rspec --init"
 alias sr="spring rspec"
 
 # cucumber
@@ -363,6 +369,8 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # Why add $PATH to the end: to make it the first directory instead, otherwise some existing version of bash will be picked up by anything looking down your PATH.
 # More on the above & why add $PATH to the end instead of the beginning is beauitfully explained here: https://stackoverflow.com/a/78274517/272398
 export PATH="/opt/homebrew/Cellar/bash/5.2.26/bin:$PATH"
+# If I remember correctly, this is done to run psql from the terminal
+export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
 
 # . $HOME/.asdf/asdf.sh # check later if needed for now its giving an error 'no such file or directory'
 # . $HOME/.asdf/completions/asdf.bash
