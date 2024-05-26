@@ -96,6 +96,7 @@ alias ll='ls -al'
 alias tlf='tail -f'
 alias hg='history | grep'
 alias to='touch'
+alias mk="mkdir"
 
 # bundle
 alias b="bundle"
@@ -204,6 +205,8 @@ alias ras="rubocop --require rubocop-rspec -a"
 #tools to help you improve your ruby code
 alias ruc="rubycritic"
 alias fa="fasterer"
+alias fl='flog'
+alias re='reek'
 
 #Manage Procfile-based applications
 alias fs="foreman start"
@@ -253,7 +256,7 @@ alias gpom="git push origin master"
 alias gpoh="git push origin HEAD" # git push current branch via - http://stackoverflow.com/questions/14031970/git-push-current-branch-shortcut
 alias gpohf="git push origin HEAD -f"
 alias gr="git reset"
-alias grev="git revert" # git revert commit_id# #check existing zsh alias
+alias gre="git revert" # git revert commit_id# #check existing zsh alias
 alias grih="git rebase -i HEAD"
 # This is used for limiting commit messages width. Read more on - http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 textwidth=72
