@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+source 'https://rubygems.org'
+ruby '3.3.0'
+
+group :development do
+  gem 'rubycritic', require: false
+  gem 'reek', require: false
+  gem 'fasterer', require: false
+
+end
+
+group :development, :test do
+  gem 'rubocop', require: false
+  gem 'rubocop-rspec', require: false
+  gem 'rubocop-performance', require: false
+  gem 'pry'
+  gem 'rspec'
+  gem 'flog', require: false
+end
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <!-- Ruby basic gem setup-->
+  <!-- ruby gem setup basic -->
+  <tabTrigger>rgsb</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

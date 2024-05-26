@@ -1,13 +1,14 @@
 <snippet>
   <content><![CDATA[
-  PROJECT_ROOT = File.expand_path('../..', __FILE__)
-
-  Dir.glob(File.join(PROJECT_ROOT, 'lib', '*.rb')).each do |file|
-    require file
-  end
+--color
+--format documentation
+--backtrace
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>rf</tabTrigger>
+  <!-- rtc - Rspec init options -->
+  <tabTrigger>rio</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <!-- <scope>source.python</scope> -->
 </snippet>
+
+

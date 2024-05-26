@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+require:
+  - rubocop-rspec
+  - rubocop-performance
+
+# A line with 80 characters length is generally too small
+Metrics/LineLength:
+  Max: 120
+
+# The first argument to describe should be the class or module being tested.
+# This needn't be always true, I could have an add method and a spec for that and it doesn't need an Add class
+RSpec/DescribeClass:
+  Enabled: false
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <!-- .rubocop.yml basic config setup-->
+  <tabTrigger>rbc</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
+
+
