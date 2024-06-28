@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+  namespace :api do
+    namespace :v1 do
+      resources :reource_name_plural(items)
+    end
+  end
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>bap</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
+
+
+
+
+
