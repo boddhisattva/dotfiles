@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-expect(subject).to eq()
+expect().to eq()
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>rem</tabTrigger>
