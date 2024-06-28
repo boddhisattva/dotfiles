@@ -7,7 +7,7 @@ group :development do
   gem 'rubycritic', require: false
   gem 'reek', require: false
   gem 'fasterer', require: false
-
+  gem 'flog', require: false
 end
 
 group :development, :test do
@@ -16,7 +16,6 @@ group :development, :test do
   gem 'rubocop-performance', require: false
   gem 'pry'
   gem 'rspec'
-  gem 'flog', require: false
 end
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
