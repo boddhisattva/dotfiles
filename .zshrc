@@ -156,7 +156,8 @@ alias rct="rails c -e test"
 alias rsp="rails s -p"
 alias rapp="rake assets:precompile RAILS_ENV=production"
 alias rsprod="rails s -e production"
-alias rrg="rake routes | grep"
+alias rr="rails routes"
+alias rrg="rails routes | grep"
 alias rj="rake jasmine"
 alias rcs="rails c --sandbox"
 alias blg="tail -f log/bullet.log"
@@ -176,7 +177,7 @@ alias rarg='rake api:routes | grep'
 
 #rails engines
 alias rar="rake app:routes"
-alias rarg="rake app:routes | grep"
+alias raprg="rake app:routes | grep"
 
 #rake
 alias rt="rake test" #to run all tests from Rakefile, more here: https://stackoverflow.com/questions/4788288/how-to-run-all-tests-with-minitest
@@ -206,6 +207,7 @@ alias ras="rubocop --require rubocop-rspec -a"
 alias ruc="rubycritic"
 alias fa="fasterer"
 alias fl='flog'
+alias fla='flog --all'
 alias re='reek'
 
 #Manage Procfile-based applications
@@ -263,7 +265,6 @@ textwidth=72
 alias grbom="git rebase origin/master"
 alias gsrt="git show-ref --tags"
 alias grbod="git rebase origin/develop"
-alias gcd="git checkout develop"
 alias gbm="git branch -m"
 alias gbr="git branch -r" #see all remote git branches
 alias gl="git pull"
@@ -275,6 +276,8 @@ alias gbds="git branch -D staging"
 alias grs="git branch -D staging && git checkout staging" #do this after checking out latest master branch only with alias cmd gl
 alias gres="git restore --staged"
 alias gca="git commit --amend"
+alias gcod="gco -b development"
+alias gcd="gco development"
 
 #zsh related
 alias d=devlog
