@@ -109,7 +109,9 @@ alias buse="bundle update --source ms_core ms_lvsg travel_insurance credit_card 
 alias busl="bundle update --source ms_lvsg"
 alias busc="bundle update --source ms_core"
 alias bv="bundler --version"
-
+alias ba="bundle add" # to bundle add a Gem like to a Gemfile
+alias bo="bundle open" # to bundle open a Gem in cases like when debugging
+alias bcai="bundle config --global auto_install true" #auto install newly added gems at a global level to a given Rails project
 
 # exercism
 alias ef="exercism fetch"
@@ -377,6 +379,13 @@ export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="/opt/homebrew/Cellar/bash/5.2.26/bin:$PATH"
 # If I remember correctly, this is done to run psql from the terminal
 export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
+
+export PATH="/opt/homebrew/bin/chromedriver:$PATH"
+export PATH="/opt/homebrew/Cellar/redis/7.2.5/bin:$PATH"
+export PATH="/Users/sadhak/Downloads/softwares/gcloud/google-cloud-sdk/bin/:$PATH"
+# google-cloud-sdk
+
+
 
 # . $HOME/.asdf/asdf.sh # check later if needed for now its giving an error 'no such file or directory'
 # . $HOME/.asdf/completions/asdf.bash
