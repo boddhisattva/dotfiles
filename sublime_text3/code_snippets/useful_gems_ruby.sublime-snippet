@@ -10,6 +10,7 @@ group :development do
   gem 'terminal-notifier'
   gem 'rubycritic'
   gem 'fasterer'
+  gem 'reek'
 end
 
 group :development, :test do
