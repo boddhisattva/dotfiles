@@ -124,6 +124,9 @@ alias gu="gem uninstall"
 alias gli="gem list"
 alias glgp="gem list | grep"
 
+#yarn
+alias ya="yarn add" #Example: yarn add esbuild
+
 #ruby
 alias rv="ruby -v"
 
@@ -134,15 +137,17 @@ alias rgl='rvm gemset list'
 alias rcg='rvm current gemset'
 #alias rgc='rvm gemset create' not using that much more any more because rcr seems to do the job for me at the moment pretty well
 alias ru='rvm use'
-alias rcr='rvm --create --ruby-version'
+alias rcr='rvm --create --ruby-version' # E.g., rcr ruby-3.3.6@learner
 alias rre='rvm remove'
 alias ri='rvm info'
 alias rgh='rvm gemset home' #helps in tracing the gems related location if you'd need to modify them in anyway
+alias rgr='rvm gemset rename' # syntax rgr current_gemset_name new_gemset_name
 
 # ruby
 alias i="irb"
 
 # rails
+# For list of aliases like rdd for rake db:drop that work out of the box refer:
 alias rk="rake"
 alias r="ruby"
 alias s="spring"
@@ -215,6 +220,9 @@ alias re='reek'
 #Manage Procfile-based applications
 alias fs="foreman start"
 
+#visualstudio
+alias c="code ."
+
 #go
 alias gv="go version"
 
@@ -263,7 +271,7 @@ alias gr="git reset"
 alias gre="git revert" # git revert commit_id# #check existing zsh alias
 alias grih="git rebase -i HEAD"
 # This is used for limiting commit messages width. Read more on - http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
-textwidth=72
+# textwidth=72
 alias grbom="git rebase origin/master"
 alias gsrt="git show-ref --tags"
 alias grbod="git rebase origin/develop"
@@ -325,6 +333,10 @@ alias mpr="mix phx.routes"
 alias pc="iex -S mix"
 alias ims="iex -S mix phx.server"
 alias imt="iex -S mix test --trace"
+
+
+#annotate https://github.com/ctran/annotate_models
+alias arb="annotaterb"
 
 #js
 alias ni="npm install"
