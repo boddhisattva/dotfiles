@@ -182,6 +182,10 @@ alias rdemo='rails destroy model'
 alias rav='rails --version'
 alias rarg='rake api:routes | grep'
 
+#rails log
+alias tlg="tail -f log/test.log"
+alias dlg="tail -f log/development.log"
+
 #rails engines
 alias rar="rake app:routes"
 alias raprg="rake app:routes | grep"
