@@ -182,6 +182,9 @@ alias rdemo='rails destroy model'
 alias rav='rails --version'
 alias rarg='rake api:routes | grep'
 
+#rails server related
+alias bd='bin/dev' # Starts a new Rails app and bundles the JS & CSS code. Replaces `rails s`. New cmd since Rails 7.x
+
 #rails log
 alias tlg="tail -f log/test.log"
 alias dlg="tail -f log/development.log"
