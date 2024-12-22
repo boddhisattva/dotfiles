@@ -193,6 +193,9 @@ alias dlg="tail -f log/development.log"
 alias rar="rake app:routes"
 alias raprg="rake app:routes | grep"
 
+#rails administrate
+alias ragv="rails generate administrate:views:show" # E.g.,: rails generate administrate:views:show Model_Name
+
 #rake
 alias rt="rake test" #to run all tests from Rakefile, more here: https://stackoverflow.com/questions/4788288/how-to-run-all-tests-with-minitest
 
