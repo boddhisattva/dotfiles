@@ -124,6 +124,10 @@ alias gu="gem uninstall"
 alias gli="gem list"
 alias glgp="gem list | grep"
 
+
+#cursor IDE
+alias cu="cursor"
+
 #yarn
 alias ya="yarn add" #Example: yarn add esbuild
 
@@ -155,6 +159,8 @@ alias st="spring stop"
 alias srk="spring rake"
 alias st="spring stop"
 alias rdcm="rake db:create && rake db:migrate"
+alias berdcm="bundle exec rake db:create && bundle exec rake db:migrate"
+alias berdcmt="RAILS_ENV=test bundle exec rake db:create && bundle exec rake db:migrate"
 alias rdct="rake db:create RAILS_ENV=test"
 alias rdmt="rake db:migrate RAILS_ENV=test"
 alias rds="rake db:seed"
@@ -205,7 +211,7 @@ alias ri="rspec --init"
 alias sr="spring rspec"
 
 # cucumber
-alias cu="cucumber"
+alias cucs="cucumber"
 
 # guard
 alias g="guard"
@@ -375,6 +381,9 @@ alias clrs="cp ~/Library/Application\ Support/Code/User/snippets/ruby.json /User
 
 # asdf
 alias ale="asdf local elixir"
+
+#claude and claude code related
+alias cl="claude"
 
 # bash
 alias bv="bash --version"
