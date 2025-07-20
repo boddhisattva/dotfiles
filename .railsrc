@@ -1,2 +1,7 @@
+--javascript=esbuild
 --database=postgresql
 --skip-test
+# test if comments are allowed in this file and
+# to basically add tailwind css manually as a gem
+# because adding this way will install via node packages
+# and that is not recommended ot use, use tailwind css official gem instead
