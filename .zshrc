@@ -124,7 +124,6 @@ alias gu="gem uninstall"
 alias gli="gem list"
 alias glgp="gem list | grep"
 
-
 #cursor IDE
 alias cu="cursor"
 
@@ -166,6 +165,7 @@ alias rdmt="rake db:migrate RAILS_ENV=test"
 alias rds="rake db:seed"
 alias rcto="rails c test" # here 'o' refers to the older syntax to access rails test console
 alias rct="rails c -e test"
+alias rcp="rails c -e production"
 alias rsp="rails s -p"
 alias rapp="rake assets:precompile RAILS_ENV=production"
 alias rsprod="rails s -e production"
@@ -174,6 +174,7 @@ alias rrg="rails routes | grep"
 alias rj="rake jasmine"
 alias rcs="rails c --sandbox"
 alias blg="tail -f log/bullet.log"
+alias plg="tail -f log/prosopite.log" # prosopite gem for N+1 queries
 alias rlc="rake log:clear"
 alias bers="bundle exec rails s"
 alias berc="bundle exec rails c"
@@ -187,6 +188,15 @@ alias rdem='rails destroy migration'
 alias rdemo='rails destroy model'
 alias rav='rails --version'
 alias rarg='rake api:routes | grep'
+alias gapi='rake rswag' # regenerate rswag docs for API documentation
+
+#Memcached
+alias mcs="brew services start memcached"
+alias mcst="brew services stop memcached"
+
+#Sidekiq
+alias bes="bundle exec sidekiq"
+alias besq="bundle exec sidekiq -q"
 
 #rails server related
 alias bd='bin/dev' # Starts a new Rails app and bundles the JS & CSS code. Replaces `rails s`. New cmd since Rails 7.x
@@ -299,11 +309,11 @@ alias gpab="git push --all origin" #git push all branches to remote
 alias gsr="git reset --soft HEAD~1" #git soft revert; credits: https://stackoverflow.com/a/62425854/272398
 alias gcos="git checkout staging"
 alias gbds="git branch -D staging"
-alias grs="git branch -D staging && git checkout staging" #do this after checking out latest master branch only with alias cmd gl
-alias gres="git restore --staged"
+alias grs="git restore --staged"
 alias gca="git commit --amend"
 alias gcod="gco -b development"
 alias gcd="gco development"
+alias gbsum='git branch --set-upstream-to=origin/main main'
 
 #zsh related
 alias d=devlog
@@ -350,6 +360,8 @@ alias pc="iex -S mix"
 alias ims="iex -S mix phx.server"
 alias imt="iex -S mix test --trace"
 
+#psql commands
+alias psd="psql -d" #E.g., 'psd exercises' to connect to the exercises database
 
 #annotate https://github.com/ctran/annotate_models
 alias arb="annotaterb"
@@ -401,6 +413,7 @@ alias drdc="docker-compose exec organizations-app bundle exec rails console" #ap
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="$HOME/.local/bin:$PATH" # To setup cursor-agent
 
 # Load the current latest version of bash in ZSH to leverage latest bash functions
 # remember you to also edit your subl /etc/shells to add the latest installed bash path to it
@@ -415,8 +428,6 @@ export PATH="/opt/homebrew/bin/chromedriver:$PATH"
 export PATH="/opt/homebrew/Cellar/redis/7.2.5/bin:$PATH"
 export PATH="/Users/sadhak/Downloads/softwares/gcloud/google-cloud-sdk/bin/:$PATH"
 # google-cloud-sdk
-
-
 
 # . $HOME/.asdf/asdf.sh # check later if needed for now its giving an error 'no such file or directory'
 # . $HOME/.asdf/completions/asdf.bash
